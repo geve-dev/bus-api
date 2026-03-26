@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const lineController = require('../controllers/lineCtrontroller');
+const lineController = require('../controllers/lineController');
 
 // Rota para CRIAR (Create) uma line
 router.post('/bus-line', lineController.createLine);
